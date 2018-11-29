@@ -14,7 +14,7 @@ public class ItemService {
 
 
 public Item showone(Long id){
-
+int a=1;
     return this.restTemplate.getForObject("http://localhost:8010/item/"+id,Item.class);
 }
 
